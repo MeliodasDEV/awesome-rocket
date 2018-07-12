@@ -1,0 +1,18 @@
+{
+  "name": "rocketio",
+  "version": "1.0.0",
+  "description": "rocketio content management system",
+  "main": "app/init/server.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && node server.js"
+  },
+  "author": "rocketio-team",
+  "license": "ISC"
+}
